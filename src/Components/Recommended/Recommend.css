@@ -1,0 +1,21 @@
+.side-card{
+    color: black;
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.side-card h3{
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.side-card p{
+    font-size: 13px;
+    margin-bottom: 1px;
+}
+.side-card span{
+    font-size: 12px;
+}
+.side-card img{
+    width: 50%;
+}

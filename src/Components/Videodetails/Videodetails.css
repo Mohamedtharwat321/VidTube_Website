@@ -1,0 +1,126 @@
+.video-details{
+    padding: 0 10px;
+}
+.video-details iframe{
+    width: 100%;
+    height: 37vw;
+}
+.video-details .title{
+    margin: 10px 0;
+    font-size: 22px;
+}
+.video-details .video-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+.video-info img{
+    width: 20px;
+    margin-right: 6px;
+}
+.video-info div span{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+
+hr{
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+.video-details .publisher{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.publisher img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.publisher div{
+    flex: 1;
+    line-height: 18px;
+}
+.publisher div p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.publisher div span{
+    font-size: 13px;
+    color: #5a5a5a;
+}
+.publisher button{
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+.desc{
+    margin-top: 20px;
+    margin-left: 55px;
+    color: #5a5a5a;
+    font-size: 14px;
+}
+.desc h4{
+    margin: 12px 0 20px 0;
+}
+.desc .comment-info{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 24px 0;
+}
+.comment-info img{
+    width: 30px;
+    border-radius: 50%;
+}
+.comment-info h3{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.comment-info span{
+    color: #5a5a5a;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.comment-reactions{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+.comment-reactions img{
+    width: 20px;
+}
+.comment-reactions span{
+    margin-right: 10px;
+    margin-left: 4px;
+}
+
+@media (max-width:950px) {
+    .video-details{
+        padding: 0 8px;
+    }
+    .video-details iframe {
+        height: 53vw;
+    }
+    .desc{
+        margin-left: 0;
+    }
+    .video-info div{
+        margin-top: 10px;
+    }
+}
