@@ -1,5 +1,5 @@
 <h1 align="center"> ⭐️ VidTube App⭐️ </h1> <br>
- <h3 algin="center"> Live Demo: https://currency-app-git-main-mohamed-tharwats-projects.vercel.app/ </h3> <br>
+ <h3 algin="center"> Live Demo: https://vid-tube-website-git-main-mohamed-tharwats-projects.vercel.app/ </h3> <br>
 
 
 ![Image](https://github.com/user-attachments/assets/8dc9cfc7-0814-48e4-aa1f-a0fe7b2a71cd)
